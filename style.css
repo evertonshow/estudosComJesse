@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.56);
+}
+.container .header {
+  height: 90px;
+  background-color: rgb(71, 97, 175);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .header .img {
+  margin-left: 50%;
+}
+.container .header .links {
+  margin-right: 20px;
+  font-size: 16px;
+}
+.container .header .links_color {
+  color: white;
+  margin-left: 10px;
+}
